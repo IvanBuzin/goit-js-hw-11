@@ -21,7 +21,7 @@ function toRenderImages(event) {
   const userSearch = form.search.value.trim();
 
   const url = new URL('https://pixabay.com/api/');
-  url.searchParams.append('key', '41563330-08ed4e1341b4edecabdae7272');
+  url.searchParams.append('key', '41619692-6da96b2a0003032b895baebe3');
   url.searchParams.append('q', userSearch);
   url.searchParams.append('image_type', 'photo');
   url.searchParams.append('orientation', 'horizontal');
