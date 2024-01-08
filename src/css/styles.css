@@ -35,7 +35,6 @@
   flex-direction: row;
 }
 .form:hover,
-.form:after,
 .form:active {
   padding-bottom: 32px;
 }
