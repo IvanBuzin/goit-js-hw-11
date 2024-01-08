@@ -29,13 +29,15 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
-  padding: 32px 0;
 
   width: 1440px;
-  height: 496px;
-  padding: 36px 0px 420px 0px;
 
   background: #fff;
+
+  padding: 36px 0px 364px 0px;
+  flex-direction: column;
+
+  gap: 32px;
 }
 /*----правки----*/
 input[name='search'],
