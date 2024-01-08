@@ -29,15 +29,10 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
-
   width: 1440px;
-
   background: #fff;
-
   padding: 36px 0px 364px 0px;
-  flex-direction: column;
-
-  gap: 32px;
+  flex-direction: row;
 }
 .form:hover {
   padding-bottom: 32px;
