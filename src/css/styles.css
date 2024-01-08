@@ -39,6 +39,10 @@
 
   gap: 32px;
 }
+.form:hover {
+  padding-bottom: 32px;
+}
+
 /*----правки----*/
 input[name='search'],
 input[name='search']:hover {
