@@ -59,7 +59,7 @@ input[name='search']:focus {
 }
 
 button[type='submit'] {
-  max-width: 95px;
+  width: 95px;
 
   font-family: inherit;
   color: #fff;
