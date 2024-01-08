@@ -34,9 +34,6 @@
   padding: 36px 0px 364px 0px;
   flex-direction: row;
 }
-.form:active {
-  padding-bottom: 32px;
-}
 
 /*----правки----*/
 input[name='search'],
@@ -62,7 +59,7 @@ input[name='search']:hover {
 }
 
 input[name='search']:focus {
-  border-color: #77648a;
+  border-color: #4e75ff;
   color: #2e2f42;
 }
 
