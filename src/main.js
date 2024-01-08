@@ -48,7 +48,7 @@ function toRenderImages(event) {
       gallery.innerHTML = '';
       gallery.innerHTML = images.hits.reduce(
         (
-          acc,
+          html,
           {
             webformatURL,
             largeImageURL,
@@ -59,7 +59,7 @@ function toRenderImages(event) {
             downloads,
           }
         ) =>
-          acc +
+          html +
           `<li class='gallery-item'>
               <a class='gallery-link' href='${largeImageURL}'>
                 <img
