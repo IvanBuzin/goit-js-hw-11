@@ -53,7 +53,7 @@ input[name='search']:hover {
   border-radius: 4px;
   border: 1px solid #808080;
   outline: transparent;
-  background-color: #808080;
+  border-color: #808080;
 
   /*font-family: inherit;*/
   transition: border-color 0.25s ease-in;
