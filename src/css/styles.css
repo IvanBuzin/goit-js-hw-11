@@ -30,9 +30,14 @@
   justify-content: center;
   gap: 8px;
   padding: 32px 0;
+
+  width: 272px; /**/
+  height: 40px;
+  flex-shrink: 0;
 }
 /*----правки----*/
-input[name='search'] {
+input[name='search'],
+input[name='search']:hover {
   color: #808080;
 
   font-family: Montserrat;
@@ -53,9 +58,9 @@ input[name='search'] {
   transition: border-color 0.25s ease-in;
 }
 
-input[name='search']:hover,
 input[name='search']:focus {
   border-color: #77648a;
+  color: #2e2f42;
 }
 
 button[type='submit'] {
@@ -72,14 +77,14 @@ button[type='submit'] {
   border: transparent;
   border-radius: 8px;
   outline: transparent;
-  background: #a7a7dd;
+  background: #4e75ff;
 
   transition: background-color 250ms ease-out;
 }
 
 button[type='submit']:hover,
 button[type='submit']:focus {
-  background-color: #9494dc;
+  background: #6c8cff;
 }
 
 .loader.hide {
